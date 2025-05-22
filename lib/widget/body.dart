@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tononkira_pcl/entity/Lyric.dart';
+import 'package:tononkira_pcl/widget/Lyric.dart';
 
 Widget body(Future<List<Lyric>> lyrics) {
   return Column(
@@ -29,6 +30,16 @@ Widget body(Future<List<Lyric>> lyrics) {
                     final song = songList[index];
                     return ListTile(
                       title: Text(song.title),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>   LyricDetail(
+                              lyric: song,
+                            ),
+                          ),
+                        );
+                      },
                     );
                   },
                 );
