@@ -12,7 +12,7 @@ class TononkiraPCL extends StatefulWidget {
 
 	@override
 	State<TononkiraPCL> createState() => _TononkiraPCL();
-	}
+}
 
 class _TononkiraPCL extends State<TononkiraPCL> {
 	late Future<List<Lyric>> lyrics;
