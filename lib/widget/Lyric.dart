@@ -25,7 +25,7 @@ class LyricDetail extends StatelessWidget {
           Text(
             lyric.refrain,
             textAlign: TextAlign.justify,
-            style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
+            style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
           ),
         ]
       )
