@@ -1,12 +1,8 @@
 [
     {
-        "event": {
-            "1": "noely",
-            "2": "paska"
-        },
-        "rhythm": {
-            "1": "mihetsika",
-            "2": "milamina"
-        }
+        "1": "noely",
+        "2": "paska",
+        "3": "mihetsika",
+        "4": "milamina"
     }
 ]

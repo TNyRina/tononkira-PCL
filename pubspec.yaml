@@ -62,6 +62,7 @@ flutter:
   assets:
     - assets/img/logo_pcl.png
     - assets/data/lyric.json
+    - assets/data/category.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

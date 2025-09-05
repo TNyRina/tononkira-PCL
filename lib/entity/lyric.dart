@@ -1,14 +1,12 @@
-import 'package:tononkira_pcl/entity/Category.dart';
-
 class Lyric {
   late final int id;
   late final String title;
   late final String release;
   late final String author;
   late final String composer;
-  late final List<String> verse;
+  late final List<String> verses;
   late final String refrain;
-  // late final Category category;
+  late final List<int> categories;
 
   Lyric({
     required this.id,
@@ -16,9 +14,9 @@ class Lyric {
     required this.release,
     required this.author,
     required this.composer,
-    required this.verse,
+    required this.verses,
     required this.refrain,
-    // required this.category,
+    required this.categories,
   });
 
   factory Lyric.fromJson(Map<String, dynamic> json) {
@@ -28,9 +26,11 @@ class Lyric {
       release: json['release'],
       author: json['author'],
       composer: json['composer'],
-      verse: List<String>.from(json['verse']),
+      verses: List<String>.from(json['verse']),
       refrain: json['refrain'],
-      // category: Category.fromJson(json['category']),
+      categories: List<int>.from(json['categories'] ?? []),
     );
   }
+
+  
 }

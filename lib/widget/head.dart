@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 AppBar head(){
 	return AppBar(
-		title: Text('Tononkira PCL Dev'),
+		title: Text('Tononkira PCL'),
 		centerTitle: true,
 		leading: Padding(
 			padding: EdgeInsets.all(8.0),

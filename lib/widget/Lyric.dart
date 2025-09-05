@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tononkira_pcl/entity/Lyric.dart';
+import 'package:tononkira_pcl/entity/lyric.dart';
 
 class LyricDetail extends StatelessWidget {
   final Lyric lyric;
@@ -14,7 +14,7 @@ class LyricDetail extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ...lyric.verse.map((v) => Padding(
+          ...lyric.verses.map((v) => Padding(
             padding: const EdgeInsets.only(bottom: 12),
             child: Text(
               v,
