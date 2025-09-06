@@ -28,7 +28,10 @@ class _TononkiraPCL extends State<TononkiraPCL> {
 	Widget build(BuildContext context) {
 		return MaterialApp(
 		  title: "Tonokira PCL",
-		  home: Scaffold(appBar: head(), body: body(lyrics)),
+		  home: Scaffold(
+        appBar: head(), 
+        body: body(lyrics)
+      ),
 		  debugShowCheckedModeBanner: false,
 		);
 	}

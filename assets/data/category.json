@@ -1,8 +1,18 @@
 [
     {
-        "1": "noely",
-        "2": "paska",
-        "3": "mihetsika",
-        "4": "milamina"
+        "id" : 1,
+        "name" : "noely"
+    },
+    {
+        "id" : 2,
+        "name" : "paska"
+    },
+    {
+        "id" : 3,
+        "name" : "mihetsika"
+    },
+    {
+        "id" : 4,
+        "name" : "milamina"
     }
 ]
