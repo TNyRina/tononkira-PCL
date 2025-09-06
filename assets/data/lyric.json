@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "title": "Ho modely",
+        "release": "2000",
+        "author": "Auteur",
+        "composer": "Compositeur",
+        "verse": [
+            "Andininy Voalohany",
+            "Andininy Faharoa",
+            "Andiny Fahatelo"
+        ],
+        "refrain": "Fiverenany",
+        "categories": []
+    },
+    {
+        "id": 2,
+        "title": "Noely Ankalazao",
+        "release": "2010",
+        "author": "Auteur",
+        "composer": "Compositeur",
+        "verse": [
+            "Andininy Voalohany",
+            "Andininy Faharoa",
+            "Andiny Fahatelo",
+            "Andininy Voalohany",
+            "Andininy Faharoa",
+            "Andiny Fahatelo"
+        ],
+        "refrain": "Fiverenany",
+        "categories": [2, 4]
+    },
+    {
+        "id": 3,
+        "title": "Jesoa",
+        "release": "2010",
+        "author": "Auteur",
+        "composer": "Compositeur",
+        "verse": [
+            "Andininy Voalohany",
+            "Andininy Faharoa",
+            "Andiny Fahatelo"
+        ],
+        "refrain": "Fiverenany",
+        "categories": [1,3]
+    },
+    {
+        "id": 2,
+        "title": "Ry Fanahy Mpankahery",
+        "release": "2010",
+        "author": "Auteur",
+        "composer": "Compositeur",
+        "verse": [
+            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
+            "Indro tonga miandrandra ...\n",
+            "..."
+        ],
+        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
+        "categories": [1,3]
+    }
+]
