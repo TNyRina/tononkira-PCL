@@ -15,4 +15,24 @@
         "id" : 4,
         "name" : "milamina"
     }
+    ,
+    {
+        "id" : 5,
+        "name" : "malagasy"
+    }
+    ,
+    {
+        "id" : 6,
+        "name" : "anglais"
+    }
+    ,
+    {
+        "id" : 7,
+        "name" : "français"
+    }
+    ,
+    {
+        "id" : 8,
+        "name" : "espagniol"
+    }
 ]

@@ -1,187 +1,212 @@
 [
     {
         "id": 1,
-        "title": "Ho modely",
-        "release": "2000",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "title": "Venez Divin Messie",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Andininy Voalohany",
-            "Andininy Faharoa",
-            "Andiny Fahatelo"
+            "Au Fils de Dieu, ne tardez pas\nPar votre corps, donnez la joie\nÀ notre monde en désarroi",
+            "Redites-nous encore\nDe quel amour Vous nous aimez\nTant d’hommes Vous ignorent,\nVenez, venez, venez",
+            "À Bethléem, les Cieux chantaient\nQue le meilleur de vos bienfaits\nC’était le don de votre paix",
+            "Le monde la dédaigne\nPartout les cœurs sont divisés\nQu’arrive votre règne,\nVenez, venez, venez"
         ],
-        "refrain": "Fiverenany",
-        "categories": [1,2]
+        "refrain": "Venez Divin Messie, apporter votre charité\nAu monde qui l’oublie, venez, venez, venez",
+        "categories": [1,4,7]
     },
     {
         "id": 2,
-        "title": "Noely Ankalazao",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "title": "Minuit chretien",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Andininy Voalohany",
-            "Andininy Faharoa",
-            "Andiny Fahatelo",
-            "Andininy Voalohany",
-            "Andininy Faharoa",
-            "Andiny Fahatelo"
+            "Minuit chrétien, c’est l’heure solennelle\nOù l’Homme Dieu descendit jusqu’à nous\nPour effacer la tâche originelle\nEt de Son Père, arrêter le courroux",
+
+            "Le monde entier tressaille d’espérance\nEn cette nuit qui lui donne un Sauveur\nPeuple à genoux, attends ta délivrance\nNoël, Noël, voici le Rédempteur",
+
+            "De notre foi, que la lumière ardente\nNous guide tous au berceau de l’Enfant\nComme autrefois, une étoile brillante\nY conduisit les chefs de l’Orient",
+
+            "Le Roi des rois naît dans une humble crèche\nPuissant du jour, fiers de votre grandeur\nÀ votre orgueil, c’est de-là qu’un Dieu prêche\nCourbez vos fronts devant le Rédempteur",
+
+            "Le Rédempteur a brisé toute entrave\nLa terre est libre et le Ciel est ouvert\nIl voit un frère qui n’était qu’un esclave\nL’Amour unit ceux qu’enchaînait le fe",
+
+            "Qui lui dira notre reconnaissance\nC’est pour nous tous qu’Il naît, qu’Il souffre et meurt\nPeuple debout, chante ta délivrance\nNoël, Noël, chantons le Rédempteur "
         ],
-        "refrain": "Fiverenany",
-        "categories": [2, 4]
+        "refrain": "",
+        "categories": [1, 4, 7]
     },
     {
         "id": 3,
-        "title": "Jesoa",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "title": "Noely sambatra",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Andininy Voalohany",
-            "Andininy Faharoa",
-            "Andiny Fahatelo"
+            "Ry Noely maminay, Noely sambatra\nFaly, ravo izahay, mirana eram-po",
+            "Hira no asandratray ho Anao Mpanjakanay\nTompo mpanafaka anay, Hôzana, Aleloia",
+            "Hira no asandratray, Ry Mpanjakanay\nRy Mpanjakan’Andanitray, Tompo sy Mesia",
+            "Ry Noely maminay, Noelim-pahasambaranay\nHira no asandratray, Hôzana, Aleloia",
+            "Ry Noely maminay, Noely sambatra\nToa ny fanavotana, soa ny fiainana",
+            "Ry Noely maminay, Noely sambatra ho Anao"
         ],
-        "refrain": "Fiverenany",
-        "categories": [1,3]
+        "refrain": "",
+        "categories": [1,4,5]
     },
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 4,
+        "title": "Noël du monde entier",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Dans cette nuit,\nLe monde entier connaît sa joie profonde\nComme un soleil d’humanité\nVoici noël : le Christ est né\nDans cette nuit,\nLe monde entier connaît sa joie profonde",
+
+            "Le Fils de Dieu venu chez nous\nRassemble tous les hommes\nUn même Père nous aime tous\nComme des frères, unissons-nous\nLe Fils de Dieu venu chez nous\nRassemble tous les hommes",
+
+            "Jésus paraît, Libérateur\nAu cœur de notre monde\nIl nous apprend à nous aimer\nIl nous attend dans sa clarté\nJésus paraît, Libérateur\nAu cœur de notre monde"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,7]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 5,
+        "title": "Adeste fideles",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Adeste fideles, lætitriumpantes\nVenite, venite in Bethlehem\nNatum videte, Regem Angelorum\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Natum …",
+
+            "En, grego relicto, Humiles ad cunas\nVocati Pastores approperant\nEt nos avanti gradu festinemus\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Et nos …",
+
+            "Stella duce, Magi Chritum adorantes\nAurum, thus et myrrham dant munera\nJesu infanti corda præbeamus\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Jesu infanti …",
+
+            "Æterni Parentis splendorem æternum\nVelatum sud came videbimus\nDeum infantem pannis involutum\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Deum infantem …",
+
+            "Pro nobis egenum et feno cubantem\nPiis faveamus amplexibus\nSic nos amantem qui non redamaret\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Sic nos …"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,8]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 6,
+        "title": "Peuple fidèle",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Peuple fidèle, le Seigneur t’appelle\nC’est fête sur terre, le Christ est né\nViens à la crèche voir le Roi du monde",
+
+            "Verbe lumière, et splendeur du Père\nIl naît d’une mère, Petit enfant\nDieu véritable, le Seigneur se fait homme",
+
+            "Peuple acclame avec tous les anges\nLe maître des hommes qui viens chez toi\nDieu qui se donne à tous ceux qui L’aiment",
+
+            "Peuple fidèle, en ce jour de fête\nProclame la gloire de ton Seigneur\nDieu se fait homme pour montrer qu’Il t’aime"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "En lui viens reconnaître\nTon Dieu, ton Sauveur",
+        "categories": [1,4,7]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 7,
+        "title": "Faithful and true",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Faithful and true\nWe lead ye forth\nWhere love triumphant\nShall grown ye with joy\nStar of remain flow’rof the earth\nBest be ye both\nFar from all live’s annnoy\nChampion victotious\nGo thow before\nMaid bright and glorious go thow before"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,6]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 8,
+        "title": "Silent night",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Silent night, holy night\nAll is calm, all is bright\nRound you virgin Mother and Child\nHoly Infant so tender and mild\nSleep in heaven’ly peace",
+
+            "Silent night, holy night\nDarkness flies, all is light\nShepherds hear the angels sing\n\"Halleluia! Hail the King\nChrist the saviour is born\"",
+
+            "Silent night, holy night\nSon of God, love’s pure light\nRadiant beams from thy holy face\nWith the dawn of redeeming grace\nJesus Lord at thy birth"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,6]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 9,
+        "title": "Les anges dans la campagne",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Les anges dans la campagne\nOnt entonné l’hymne des Cieux\nEt l’écho de nos montagnes\nRedit ce chant mélodieux\nGloria in excelsis deo",
+
+            "Ils annoncent la naissance\nDu Libérateur d’Israël\nEt pleins de reconnaissance\nChantent en ce jour solennel",
+
+            "Cherchons tous l’heureux village\nQui l’a vu naître sous ses toits\nOffrons Lui le tendre hommage\nEt de vos cœurs et de vos voix"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,7]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 10,
+        "title": "Joy to the world",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Joy to the world\nThe Lord is come\nLet earth receive her King\nLet ev’ry heart prepare Him room\nAnd heave’n and nature sing",
+
+            "Joy to the world\nThe saviour reigns\nLet men their songs employ\nWhile filds and floods rocks hill and plains\nRepeat the sounding joy",
+
+            "No more will sing\nAnd sorrow grow\nNor thoms infest the ground\nHe comes to make his blessings flow\nFar as the curse is found",
+            
+            "He rules the world\nWith truth and grace\nAnd makes the nations prove\nThe glories of his righteousness\nAnd wonders of His blue"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,6]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 11,
+        "title": "Je crois l’entendre encore",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Je crois l’entendre encore\nCe messager divin\nQui d’une voix sonore\nM’a reveillé soudain",
+
+            "Allons berger tressaille\nVois-tu cet humble toit\nLà, sur un peu de paille\nJésus est né pour toi",
+
+            "Berger, laissons la garde\nDe nos tendres agneaux\nA l’ange qui les garde\nDu haut de ces coteaux",
+            
+            "Berger, vite à la garde\nDe nos tendres agneaux\nCar l’ange qui les garde\nVa fuir de ces coteaux"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
+        "refrain": "",
+        "categories": [1,4,7]
+    }
+    ,
     {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
+        "id": 12,
+        "title": "Petit noël",
+        "release": "",
+        "author": "",
+        "composer": "",
         "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
+            "Noël du pays, Noël de la terre\nAu petit clocher, si grand dans mon cœur\nJ’aime ta douceur, j’adore ton mystère\nNoël de chez nous, Noël du bonheur",
+
+            "Noely famonjena, Noely hany harena\nFitiavana tsisy fetra, omeny antsika rehetra\nAfaka ny jaly, mistery mahafaly\nNoely fiadanana, Noely fahasambarana"
         ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
-    },
-    {
-        "id": 2,
-        "title": "Ry Fanahy Mpankahery",
-        "release": "2010",
-        "author": "Auteur",
-        "composer": "Compositeur",
-        "verse": [
-            "Ry fanahy mpamkahery, tantanonao\nNy dianay mba tsy ho very, ..\n",
-            "Indro tonga miandrandra ...\n",
-            "..."
-        ],
-        "refrain": "Ny aizim-piton'ny satana dia ho rava ...",
-        "categories": [1,3]
+        "refrain": "",
+        "categories": [1,4,5,7]
     }
 ]
