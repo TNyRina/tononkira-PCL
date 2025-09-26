@@ -4,21 +4,21 @@ import 'package:tononkira_pcl/entity/lyric.dart';
 
 class LyricService {
   static Future<List<Lyric>> loadLyrics() async {
-    return LyricDAO.loadLyrics();
+    return await LyricDAO.loadLyrics();
   }
 
   static Future<List<Lyric>> filterByTitleLyrics(String filter) async {
-    return LyricDAO.filterByTitleLyrics(filter);
+    return await LyricDAO.filterByTitleLyrics(filter);
   }
 
   static Future<List<Lyric>> filterByTitleAndCategoryLyrics(
     Category category,
     String filter,
   ) async {
-    return LyricDAO.filterByTitleAndCategoryLyrics(category, filter);
+    return await LyricDAO.filterByTitleAndCategoryLyrics(category, filter);
   }
 
   static Future<List<Lyric>> filterByCategoryLyrics(Category category) async {
-    return LyricDAO.filterByCategoryLyrics(category);
+    return await LyricDAO.filterByCategoryLyrics(category);
   }
 }

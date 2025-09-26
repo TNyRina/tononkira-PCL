@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/entity/playlist.dart';
 import 'package:tononkira_pcl/service/playlist_service.dart';
-import 'package:tononkira_pcl/widget/playlist/personalized/my_playlist.dart';
 import 'package:tononkira_pcl/widget/playlist/personalized/playlist.dart';
+import 'package:tononkira_pcl/widget/shared/notification.dart';
 import 'package:tononkira_pcl/widget/theme/tcolor.dart';
 import 'package:tononkira_pcl/widget/theme/tfont.dart';
 import 'package:tononkira_pcl/widget/theme/tradius.dart';
@@ -19,6 +19,12 @@ class PlaylistList extends StatefulWidget {
 
 class _PlaylistList extends State<PlaylistList> {
   late Future<List<Playlist>> playlists;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _reloadPlaylists();
+  }
 
   @override
   void initState() {
@@ -63,36 +69,15 @@ class _PlaylistList extends State<PlaylistList> {
   Widget listTile(BuildContext context, Playlist playlist) {
     return Container(
       decoration: BoxDecoration(
-        color: TColor.primary,
+        color: TColor.teritary,
         borderRadius: BorderRadius.circular(TRadius.small),
       ),
       child: ListTile(
-        onTap: () async {
-          if (widget.lyric != null) {
-            await PlaylistService.addLyricToPlaylist(
-              playlist,
-              widget.lyric as Lyric,
-            );
-
-            if (!mounted) return;
-            Navigator.of(context).push(MaterialPageRoute<void>(builder: (context) => MyPlaylist()));
-          } else {
-            Navigator.of(context).push(
-              MaterialPageRoute<void>(
-                builder: (context) => PersonalizedPlaylist(playlist: playlist),
-              ),
-            );
-          }
-        },
+        onTap: () => onTapListTile(playlist),
         title: Text(
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
-            fontSize: TFont.h2,
-          ),
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: TFont.h2),
           playlist.name,
         ),
-        subtitle: Text(playlist.getCreatedDate()!),
         trailing: IconButton(
           onPressed: () => showDeleteDialog(playlist),
           icon: Icon(Icons.delete_rounded, color: TColor.danger),
@@ -101,16 +86,39 @@ class _PlaylistList extends State<PlaylistList> {
     );
   }
 
+  void onTapListTile(Playlist playlist) async {
+    if (widget.lyric != null) {
+      await PlaylistService.addLyricToPlaylist(playlist, widget.lyric as Lyric);
+
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder:
+              (context) => PersonalizedPlaylist(
+                playlist: playlist,
+                notification:
+                    "${widget.lyric!.title} est bien ajoute dans ${playlist.name}",
+              ),
+        ),
+      );
+    } else {
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder: (context) => PersonalizedPlaylist(playlist: playlist),
+        ),
+      );
+    }
+  }
+
   void showDeleteDialog(Playlist playlist) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text("Avertissement", style: TextStyle(color: TColor.danger)),
-          icon: Icon(Icons.dangerous),
+          iconColor: TColor.danger,
+          icon: Icon(Icons.warning),
           content: Text(
-            "Voulez vous vraiment supprimer le playlis ${playlist.name}",
-          ),
+                  "Voulez vous vraiment supprimer le playlist \"${playlist.name}\"?",
+                ),
           actions: [
             TextButton(
               child: const Text("Annuler"),
@@ -119,7 +127,8 @@ class _PlaylistList extends State<PlaylistList> {
               },
             ),
             ElevatedButton(
-              child: const Text("OK"),
+              style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(TColor.danger)),
+              child: const Text("Supprimer", style: TextStyle(color: Colors.white),),
               onPressed: () {
                 deletePlaylist(playlist);
                 Navigator.of(context).pop();
@@ -131,11 +140,17 @@ class _PlaylistList extends State<PlaylistList> {
     );
   }
 
+
+
   void deletePlaylist(Playlist playlist) async {
     await PlaylistService.deletePlaylist(playlist);
-    
+    notification(context, "Suppresion reussit");
+    _reloadPlaylists();
+  }
+
+  void _reloadPlaylists() {
     setState(() {
-      playlists = PlaylistService.loadPlaylist(); 
+      playlists = PlaylistService.loadPlaylist();
     });
   }
 }

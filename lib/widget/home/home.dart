@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/service/lyric_service.dart';
 import 'package:tononkira_pcl/utility/debugJSON.dart';
-import 'package:tononkira_pcl/widget/shared/class/list_lyric.dart';
+import 'package:tononkira_pcl/widget/shared/class/head.dart';
+import 'package:tononkira_pcl/widget/shared/class/listSongs/default_list_songs.dart';
 import 'package:tononkira_pcl/widget/shared/drawer.dart';
 import 'package:tononkira_pcl/widget/shared/class/search_bar.dart' as sb;
 
@@ -16,11 +17,11 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   late Future<List<Lyric>> lyrics;
-  final textEditingController = TextEditingController();
+  final filterEdtingController = TextEditingController();
 
   @override
   void dispose() {
-    textEditingController.dispose();
+    filterEdtingController.dispose();
     super.dispose();
   }
 
@@ -29,13 +30,13 @@ class _HomeState extends State<Home> {
     super.initState();
     debugListJsonFiles();
     loadLyric();
-    textEditingController.addListener(loadLyric);
+    filterEdtingController.addListener(loadLyric);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: head(context),
+      appBar: Head(context: context, home: true).build(),
       drawer: drawer(context),
       body: body(),
     );
@@ -44,7 +45,7 @@ class _HomeState extends State<Home> {
   Widget body() {
     return Column(
       children: [
-        sb.SearchBar(controller: textEditingController),
+        sb.SearchBar(controller: filterEdtingController),
         Expanded(
           child: FutureBuilder<List<Lyric>>(
             future: lyrics,
@@ -58,7 +59,7 @@ class _HomeState extends State<Home> {
               } else {
                 final List<Lyric> songList = snapshot.data!;
 
-                return ListLyric(songList: songList);
+                return DefaultListSongs(songList: songList);
               }
             },
           ),
@@ -68,35 +69,12 @@ class _HomeState extends State<Home> {
   }
 
   void loadLyric() {
-    String filter = textEditingController.text;
+    String filter = filterEdtingController.text;
     setState(() {
       lyrics =
           (filter.isEmpty)
               ? LyricService.loadLyrics()
               : LyricService.filterByTitleLyrics(filter);
     });
-  }
-
-  AppBar head(BuildContext context) {
-    return AppBar(
-      title: Text('Tononkira PCL'),
-      centerTitle: true,
-      leading: Padding(
-        padding: EdgeInsets.all(8.0),
-        child: Image.asset('assets/img/logo_pcl.png'),
-      ),
-      actions: [
-        Builder(
-          builder: (context) {
-            return IconButton(
-              onPressed: () {
-                Scaffold.of(context).openDrawer();
-              },
-              icon: Icon(Icons.menu),
-            );
-          },
-        ),
-      ],
-    );
   }
 }

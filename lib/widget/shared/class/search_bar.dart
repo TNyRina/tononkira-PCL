@@ -34,7 +34,7 @@ class _SearchBar extends State<SearchBar> {
                 controller: widget.controller,
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  hintText: "Hitady tononkira",
+                  hintText: "Recherche",
                 ),
               ),
             ),

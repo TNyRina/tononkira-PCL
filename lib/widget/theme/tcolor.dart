@@ -5,5 +5,6 @@ class TColor {
   static const Color secondary = Color(0xFFFFEB3B); // Jaune
   static const Color teritary = Color(0xFFF0F0F0); // Gris clair
   static const Color text = Color(0xFF212121); // Noir-gris
+   static const Color textSecondary = Color.fromARGB(255, 126, 126, 126); // Noir-gris
   static const Color danger = Colors.red;
 }

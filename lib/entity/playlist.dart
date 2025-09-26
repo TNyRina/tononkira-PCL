@@ -1,10 +1,10 @@
-import 'package:tononkira_pcl/entity/lyric.dart';
+  import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/utility/convert_date.dart';
 
 class Playlist {
-  final String name;
-  final List<int> songsID;
-  final String? description;
+  String name;
+  List<int> songsID;
+  String? description;
   final DateTime? createdAt;
 
   Playlist({
@@ -34,10 +34,10 @@ class Playlist {
   }
 
   String? getCreatedDate() {
-    return ConvertDate(datetime: createdAt!).formatFR();
+    return ConvertDate(datetime: createdAt!).fullFormatFR();
   }
 
-  String getDate(){
+  String getDate() {
     return createdAt!.toString();
   }
 
@@ -59,5 +59,9 @@ class Playlist {
     if (songsID.contains(lyric.id)) {
       songsID.remove(lyric.id);
     }
+  }
+
+  void newLyricsID(List<int> newSongsID) {
+    songsID = newSongsID;
   }
 }

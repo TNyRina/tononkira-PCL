@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tononkira_pcl/widget/home/home.dart';
+import 'package:tononkira_pcl/widget/splash_screen/splash_screen.dart';
 
 
 void main() {
@@ -13,7 +13,7 @@ class TononkiraPCL extends StatelessWidget {
 	Widget build(BuildContext context) {
 		return MaterialApp(
 		  title: "Tonokira PCL",
-		  home: Home(),
+		  home: SplashScreen(),
 		  debugShowCheckedModeBanner: false,
 		);
 	}

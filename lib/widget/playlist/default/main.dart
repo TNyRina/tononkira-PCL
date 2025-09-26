@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:tononkira_pcl/entity/category.dart';
 import 'package:tononkira_pcl/service/category_service.dart';
 import 'package:tononkira_pcl/widget/playlist/default/playlist.dart';
+import 'package:tononkira_pcl/widget/shared/class/head.dart';
 
-import 'package:tononkira_pcl/widget/shared/head.dart';
 import 'package:tononkira_pcl/widget/shared/drawer.dart';
 import 'package:tononkira_pcl/widget/theme/tcolor.dart';
 import 'package:tononkira_pcl/widget/theme/tfont.dart';
@@ -29,7 +29,7 @@ class _Playlist extends State<Playlist> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: head(context, "Playlist"),
+      appBar: Head(context: context, title:"Playlist").build(),
       drawer: drawer(context),
       body: body(),
     );
@@ -75,7 +75,7 @@ class _Playlist extends State<Playlist> {
   Container listTile(BuildContext context, Category category) {
     return Container(
       decoration: BoxDecoration(
-        color: TColor.primary,
+        color: TColor.teritary,
         borderRadius: BorderRadius.circular(TRadius.small),
       ),
       child: ListTile(
@@ -88,7 +88,6 @@ class _Playlist extends State<Playlist> {
         },
         title: Text(
           style: TextStyle(
-            color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: TFont.h2,
           ),

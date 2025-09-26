@@ -4,6 +4,7 @@ class Lyric {
   late final String release;
   late final String author;
   late final String composer;
+  late final String description;
   late final List<String> verses;
   late final String refrain;
   late final List<int> categories;
@@ -14,6 +15,7 @@ class Lyric {
     required this.release,
     required this.author,
     required this.composer,
+    required this.description,
     required this.verses,
     required this.refrain,
     required this.categories,
@@ -26,11 +28,10 @@ class Lyric {
       release: json['release'],
       author: json['author'],
       composer: json['composer'],
+      description: json['description'],
       verses: List<String>.from(json['verse']),
       refrain: json['refrain'],
       categories: List<int>.from(json['categories'] ?? []),
     );
   }
-
-  
 }

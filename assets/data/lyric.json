@@ -5,6 +5,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description":"",
         "verse": [
             "Au Fils de Dieu, ne tardez pas\nPar votre corps, donnez la joie\nÀ notre monde en désarroi",
             "Redites-nous encore\nDe quel amour Vous nous aimez\nTant d’hommes Vous ignorent,\nVenez, venez, venez",
@@ -20,6 +21,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description":"",
         "verse": [
             "Minuit chrétien, c’est l’heure solennelle\nOù l’Homme Dieu descendit jusqu’à nous\nPour effacer la tâche originelle\nEt de Son Père, arrêter le courroux",
 
@@ -42,6 +44,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Ry Noely maminay, Noely sambatra\nFaly, ravo izahay, mirana eram-po",
             "Hira no asandratray ho Anao Mpanjakanay\nTompo mpanafaka anay, Hôzana, Aleloia",
@@ -59,6 +62,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Dans cette nuit,\nLe monde entier connaît sa joie profonde\nComme un soleil d’humanité\nVoici noël : le Christ est né\nDans cette nuit,\nLe monde entier connaît sa joie profonde",
 
@@ -76,6 +80,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Adeste fideles, lætitriumpantes\nVenite, venite in Bethlehem\nNatum videte, Regem Angelorum\nVenite, adoremus - Venite, adoremus - Venite, adoremus\nDominum. Natum …",
 
@@ -97,6 +102,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Peuple fidèle, le Seigneur t’appelle\nC’est fête sur terre, le Christ est né\nViens à la crèche voir le Roi du monde",
 
@@ -116,6 +122,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Faithful and true\nWe lead ye forth\nWhere love triumphant\nShall grown ye with joy\nStar of remain flow’rof the earth\nBest be ye both\nFar from all live’s annnoy\nChampion victotious\nGo thow before\nMaid bright and glorious go thow before"
         ],
@@ -129,6 +136,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Silent night, holy night\nAll is calm, all is bright\nRound you virgin Mother and Child\nHoly Infant so tender and mild\nSleep in heaven’ly peace",
 
@@ -146,6 +154,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Les anges dans la campagne\nOnt entonné l’hymne des Cieux\nEt l’écho de nos montagnes\nRedit ce chant mélodieux\nGloria in excelsis deo",
 
@@ -163,6 +172,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Joy to the world\nThe Lord is come\nLet earth receive her King\nLet ev’ry heart prepare Him room\nAnd heave’n and nature sing",
 
@@ -182,6 +192,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Je crois l’entendre encore\nCe messager divin\nQui d’une voix sonore\nM’a reveillé soudain",
 
@@ -201,6 +212,7 @@
         "release": "",
         "author": "",
         "composer": "",
+        "description": "",
         "verse": [
             "Noël du pays, Noël de la terre\nAu petit clocher, si grand dans mon cœur\nJ’aime ta douceur, j’adore ton mystère\nNoël de chez nous, Noël du bonheur",
 
@@ -208,5 +220,733 @@
         ],
         "refrain": "",
         "categories": [1,4,5,7]
+    },
+    {
+        "id": 13,
+        "title": "Miaraka amin’ny anjely maro",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+            "Miaraka amin’ny anjely maro\n'Zay manodidina Anao Tompo\n'Zahay mitsaoka Anao sy miankohoka\nFa mino izay voalazanao",
+
+            "Nanota be tamin’ny Rànao masina\nKa tsy sahy miandrandra Anao\nTeny iray monja, Tompo, no lazao\nDia ho sitrana ny fonay (in-2)", 
+
+            "Natoky fa navelavao ry Jesoa\nKa mandray izao ny fonay tontolo\nTsy misy loza mety hampiteby\nFa izahay ombanao mandry tokoa"
+        ],
+        "refrain": "Ry Zanak’ondry mahafatifaty\nDiovy aho te-handray Anao\nTsy mendrika aho, Ianao miantso\nKa dia mandroso am-panajàna\nEndrey ny hasambarako, ry Tompo\nToloranao ny Vatanao masina\nFihino aho, tahaka an’i Joany\nAn-tratranao mandrakizay",
+        "categories": [1,4,5]
+    },
+    {
+        "id": 14,
+        "title": "I surrender all",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+            "All to Jusus I surrender,\nAll to Him I freely give,\nI will ever love and trust Him\nIn his presence daily live",
+
+            "All to Jesus I surrender\nHumbly at his feet I bow\nWorldly pleasures all forsaken\nFeel me, Jesus, feel me now", 
+
+            "All to Jesus I surrender\nLord, I give myself to thee\nFill me with thy love and power\nLet thy blessing fall on me"
+        ],
+        "refrain": "I surrender all, I surrender all\nAll to thee, my blessed Savior\nI surrender all",
+        "categories": [1,4,6]
+    },
+    {
+        "id": 15,
+        "title": "Noely, terak’i Jesoa zazakely",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+            "Noely, terak’i Jesoa zazakely\nTonga ety hizara fitia\nNietry tena\nKa tranon’omby no nofidiana\nTsy mba harena,\nFa ny hotiavintsika no irìny",
+
+            "Sokafy ny fonao\nK’avelao Izy irery no hanjaka ao\n‘Ndeha hiara-hitsaoka Azy isika\nMino aho, mino aho\nF’Izy faly handray anao", 
+
+            "Mandehana mankao\nAsao daholo izao tontolo izao\nTsisy izay tsy ho efana\nMino aho, mino aho Jesoa\nMino Anao",
+
+            "Tonga olombelona i Jesoa\nMba hahatonga antsika ihany koa\nHo zanak’Andriamanitra\nMihobia\nF’indro ny Mpanavotra",
+
+            "Mifalia, miravoa\nF’efa eto anovontsika\nIlay Mpanavotra\nMino aho, mino aho Jesoa\nKa misaotra Anao",
+
+            "Fahamarinana\nAry koa fitiavana\nIreo no filamatra\nAtoron’i Jesoa"
+        ],
+        "refrain": "",
+        "categories": [1,4,5]
+    },
+    {
+        "id": 16,
+        "title": "Noely ankalazao",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+            "Iza ary moa no hanampò\nFamindram-pon’ny Tsitoha\nAnatin’ny haizin’ny tranon’omby\nJesoa zazakely no matory",
+
+            "Iza no hino raha tsy mahita\nFinoana lalina ao am-po\nIndro Jesoa zazakely ka raiso\nFanavotana am-piandohana", 
+
+            "Hafatra entin’ny noely\nMifalia hoy ny Anjely\nNy olon-drehetra ho toy ny zaza\nRavo afaka ny gadra",
+
+            "Nanome an-Janany ny Ray\nEvanjely ho an’ny tsirairay\nEfa afa-trosa isika izao\nNoely ankalazao"
+        ],
+        "refrain": "Alina tony no injao\nFahazavana vaovao\nFitiavan’ny Ray ho ahy sy ho anao(no)\nNoely ankalazao",
+        "categories": [1,4,5]
+    },
+    {
+        "id": 17,
+        "title": "Ilay mpanavotra",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "(Fa) Izy ‘lay tompon’ny fitsimbinana izao\nNo indro fa efa niranhin’Andriamanitra\nHilanja ny hazon’ny fahotako sy ny anao\nHo mendrika handova ‘lay toerana any an-danitra", 
+
+           "Manda mahery sy mafy orina\nAro maharitra koa raha tsorina\nVatsy mahavita ho an’ny fiainana\nMpanambitamby raha itarainana",
+
+            "Isika maditra mpanota (no) notiaviny\nFa Izy no tompon’ny hery tsy mba manavaka\nVonjeny daholo fa tsisy iray nolaviny\nArovany tsara tsy hisy ho very an-davaka",
+
+            "Ny fiadanao ho anay\nAry ny voninahitra ho anao ry Ray\nNy dera sy laza ho an’ny Fanahy\nNy vetso amam-bavaka no hamatsiahy fa …"
+        ],
+        "refrain": "Tonga ho antsika ilay Mpanafaka\nKa raiso ho anao mba ho fanavotana\n(Tonga ho antsika)\nNy dianao mba tsy ho solafaka\nNy fiainanao lavitry ny korotana\n(Ny dianao ô)",
+        "categories": [1,2,3,5]
+    },
+    {
+        "id": 18,
+        "title": "Ry Masina Maria renin’ny fitiavana",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Na hitety ranomasim-be (ry Maria)\nNy sambom-piainanay izao\nEfa tafa-toetra ny finoanay ry reny\nFa homba anay hatrany ianao\nNy tafiotra sy ny rivotra (mahery atý)\nTony fa nobaikon’i Jesoa\nK’hiroso lalina kokoa hatrany izahay\nFa miara-dàlana aminay ianao", 
+
+           "Natolotr’i Jesoa ho reninay (ianao Maria)\nDia tonga reny iombonana\nToky sy fanantenana koa ianao satria\nReny mpiaro ny fiangonana\nDidy vaovao nomen’i Jesoa (ry Maria)\nDia ny mba hifankatiavanay\nKoa tahio 'zahay ry reny mba hifankatia\nDia ho fantatra fa mpianany izahay"
+        ],
+        "refrain": "Ry Masina Maria renin’ny fitiavana\nMba arovy re ny dia\nIanao no mpitari-dàlana\nNino ianao raha nandray ny teny\nHo tonga nofo tao aminao\nKa mivavaha ho anay ry reny\nMba ho tena mino toa anao",
+        "categories": [3,5,9]
+    },
+    {
+        "id": 19,
+        "title": "Masina Maria mpanjakavavy",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Mba jereo maso antra ny tany tontolo\nHitanao ny haratsiana mianjady aminay\nMasina Maria mpanjakavavy ô\nMivavaha ho anay mpanota\nMba omen’i Jesoa ny famindram-pony\nHo hadinoina ireo otanay\nDia hiadam-pinaritra izahay zanakao\nMila reny e izahay", 
+
+           "Anananao fahefana ny olon-drehetra ô\nKa ianao no hanovozanay hery sy toky\nMasina Maria mpanjakavavy ô\nMivavaha ho anay mpanota\nFa ianao no hazavana mamiratra\nMampisava ny haizina\nIanao e ilay rohim-pitiavana\nMampifandray ny fonay",
+
+           "Ny vary sy ny trondro sy ny fiarian-karena ô\nHo vokatra hiavosa, hiderana ny Ray e\nMasina Maria mpanjakavavy ô\nMivavaha ho anay mpanota\nF’ianao mpanjakavavin’ny lanitra\nSoavin-dRay sady tian’ny Zanaka\nD’velom-pisaorana no mitalaho\nHo masim-piainana izahay"
+        ],
+        "refrain": "(Ianao Maria) Ianao Maria ô no ianteheranay\nMba hiaro an’Ambohitrimanjaka sy ny fiainam-panahinay\nKa arovy, tsimbino izahay zanakao (in-2)\nTantano re izany dia, fa ianao no reny be fitia\nMasina Maria mpanjakavavy ô",
+        "categories": [3,5,9]
+    },
+    {
+        "id": 20,
+        "title": "Ry Masina Maria, tsy voakasi-pahotana",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "Fanevan’ny Sinôdy 2008",
+        "verse": [
+           "Fanamby lehibe re ny Fanabeazana!\n”Atao vaindohan-draharaha\nMba hitondra fahombiazana!”\nHamolavola olom-banona sy handray andraikitra\nNy olona manontolo : vatana, saina , fo, fanahy\nHivelona sy hiaina ny Finoana sy ny Batemy\nFa efa tonga nofo marina tokoa ilay Teny.", 
+
+           "Fanamby ho fehezina ny Fampivoarana!\n”Handresena ny fahantrana\nSy ny fanararaotana!”\nHiantrehana ny fiainana anjakan’ny fifankatiavana,\nAnatin’ny fihavanana sy ny fifampitsimbinana :Dia ho mendrika ny maha-zanak’Andriamanitra\nHatonga ny rehetra mba hahazo fahasambarana.",
+
+           "Fanamby mihantsy ankehitriny ny Fanatontoloana!\n”Mba ho lalam-piraisan-kina\nMitondra fampivoarana!”\nKa ny fahaizana mandanjalanja sy misafidy,\nNo mahatsara ny ankehitriny,\nNy ampitso koa tsy hangidy,\nKa hizaka sy hanjaka amin’ny zava-boaary rehetra\nSatria efa tonga i Jesoa\nNanome ny fiainana tsy misy fetra."
+        ],
+        "refrain": "Ry Masina Maria, tsy voakasi-pahotana\nRenin’ny Fiangonana ianao, sady Mpiaro anay,\nAnkininay aminao ny Diôsezin’Iarivo maminay\nMba ho vavolombelon’ny Finoana!\nMiatrika ny fanamby, izay hery fanoitra\nHo an’ny fitoriana ny Vaovao Mahafaly,\nDia ho Fiangonana Fiombonana izahay,\nMino sy mivelona ny fitiavan’Andriamanitra",
+        "categories": [3,5,9,10]
+    },
+    {
+        "id": 21,
+        "title": "Chercher avec toi, Marie",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Puisque tu chantes avec nous\nMagnificat, Vierge Marie\nPermets la Pâque sur nos pas\nNous ferons tout ce qu’Il dira", 
+
+           "Puisque tu souffres avec nous\nGethsémani, Vierge Marie\nSoutiens nos croix de l’aujourd’hui\nEntre tes mains, voici ma vie",
+
+           "Puisque tu demeures avec nous\nPour l’angelus, Vierge Marie\nGuide nos pas dans l’inconnu\nCar tu es celle qui a cru"
+        ],
+        "refrain": "Chercher avec toi dans nos vies\nLes pas de Dieu, Vierge Marie\nPar toi, accueillir aujourd’hui\nLe don de Dieu, Vierge Marie",
+        "categories": [4,7,9]
+    },
+    {
+        "id": 22,
+        "title": "Ave Maria",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Ave Maria Gratia plena\nMaria gratia plena (in-3)\nDominus Tecum\nBenedicta tu in mulieribus\nEt benedictus (in-2)\nFructus Ventris tui, Jesus\nSancta Maria Mater Dei\nOra pro nobis peceatoribus\nNunc et in hora\nMortis nostrae (in-2)"
+        ],
+        "refrain": "",
+        "categories": [4,8,9]
+    },
+    {
+        "id": 23,
+        "title": "Hail Holy Queen (Salve regina)",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Hail Holy Queen enthroned above (oh Maria !)\nHail mother mercy and of love (oh Maria !)",
+
+           "Triumph all ye cherubin\nSing with us ye seraphim\nHeaven and earth resound the hymn\nSalve, Salve, Salve Regina",
+
+           "Our life, our sweetness here below (oh Maria !)\nOur hope in sorrow and in woe (oh Maria !)",
+
+           "Halleluia !\nMater a mater intermerata\nSanctus, sanctus, dominus\nVirgo respice mater ad spice\nSanctus, sanctus, dominus\nHalleluia !"
+        ],
+        "refrain": "",
+        "categories": [6,8,9,12]
+    },
+    {
+        "id": 24,
+        "title": "'Zaho anie ry reny",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "‘Zaho anie ry Reny te ho zanakao\nTe ho zaza tsara sy madio\n‘Zao no fikasako sitra-po tokoa :\nZaza tsara taizan’I Maria",
+
+           "Zaho mametra-tena am-pelatananao\nRy Maria e mamiko o\n‘Zao no fikasako sitra-po tokoa :\nZaza tsara taizan’I Maria"
+        ],
+        "refrain": "",
+        "categories": [4,5,9]
+    },
+    {
+        "id": 25,
+        "title": "Faneva jôbily faha-150 taona nitoriany ny Evanjely",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "150 taona lasa izay\nNo namelàna anay hitory an-kalalana\nNy finoana katôlika teto Iarivo maminay\nFa lova amam-panahy sy harena sesehena\nNo navelan’ireo misiônera mpialoha làlana\nNarahin’ireo ray aman-dreny tamim-pinoana\nOhatra amin’izany ireo olontsambatra telo mianadahy",
+
+           "150 taona lasa izay\nNefa mbola sarotra sady tsy eran’ny aina\nNo zakain’ireo maro an’isa amin’ireo fianakaviana\nKoa ampio ry Zanahary ireo ray sy reninay\nHo môdelim-piainana ho anay ankohonany\nKa ny zanaka anie hahazo fanabeazana\nHanomanany ny hoaviny ka hamiratany tokoa",
+
+           "150 taona lasa izay\nNo nanankinanay taminao ry Maria reninay\nI Madagasikara tanindrazana malalanay\nEo ambany fitantanana sy fiarovanao mahery\nKa ny làla-nosorinan’i Jesoa zanakao\nNo ezahanay miara-dàlana amy Ray\nSy ny Fanahy Masina mandrakizay mandrakizay"
+        ],
+        "refrain": "Fianakaviana mino sy mivelona ny fitiavan’Andriamanitra\nNo mandrafitra ny Fiangonana fiombonanana",
+        "categories": [3,5,10]
+    },
+    {
+        "id": 26,
+        "title": "Derao, hobio Jesoa mpamonjintsika",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Vao lasa ny hateloana\nTao am-pasam-bao\nIndro Izy velona indray\nSady be fahefana",
+
+           "Tevatevaina omaly\nIzy vao ho faty\nFa nomena izao aim-baovao\nSady mandrakizay",
+
+           "Aoka ny herinao, Tompo\nHanohana anay\nK’aiza re no tsy handresy\nIreto zanakao ?"
+        ],
+        "refrain": "Derao, hobio Jesoa Mpamonjintsika\nFa nitsangana tamin’ny maty\nVelona mandrakizay",
+        "categories": [2,4,5,11]
+    },
+    {
+        "id": 27,
+        "title": "O happy day",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "O happy day\nWhen Jesus washed\nO happy day\nHe washed my sins away\nO happy day",
+
+           "He told me howHow to watchWatch and pay",
+
+           "And He rejoiced me\nEv’ry day\nAnd gave me reason\nTo wait day and night",
+
+           "O happy day\nWhen Jesus washed\nO happy day"
+        ],
+        "refrain": "",
+        "categories": [2,6,12]
+    },
+    {
+        "id": 28,
+        "title": "Indro fa vita ny asam-pamonjena",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Indro fa vita ny asam-pamonjena\nResy ny ota sy ‘lay dragona nandrobaka\nIndro Jesoa natsangana tokoa\nFa nampiala ny fanahy voahidy re",
+
+           "Ka mba derao,\nMba derao ny mpanavotra\nAleloia, Tompo ô\nTomponay manan-jo mandrakizay",
+
+           "Ô mba hobio amim-peo mafy sy mirindra\nEh nisokatra re ny fasana\nFa tsy nafatàna ny Tompo",
+
+           "Dera, aleloia, ho Anao ry Jesoa Tompo\nDera, aleloia, ho Anao ry Mpandresy\nAfaka ny olonao\nKa hidiranay ny lanitra\nAleloia (in-4)"
+        ],
+        "refrain": "",
+        "categories": [2,5,11]
+    },
+    {
+        "id": 29,
+        "title": "Aleloia (Haendel)",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Aleloia (in-5) – Aleloia (in-5)\nFa Andriamanitra no mpanjaka – Aleloia (in-4)\nFa Andriamanitra no mpanjaka – Aleloia (in-5)\nFa Andriamanitra no mpanjaka – Aleloia (in-8)\nIzao rehetra izao – Lasany\nHo fanjakany sy ny Kristiny, ny Kristiny\nKa Izy no hanjaka doria\nManjaka – hanjaka – doria – aleloia (in-4)\nMpanjaka sy Tomponay\nKa Izy no hanjaka doria\nMpanjakanay hanjaka doria\nSy Tomponay – Aleloia – Aleloia\nKa Izy no hanjaka, hanjaka doria\nMpanjakanay sy Tomponay (in-2)\nHanjaka doria (in-2)\nAleloia (in-5)"
+        ],
+        "refrain": "",
+        "categories": [2,5,11]
+    },
+    {
+        "id": 30,
+        "title": "Mamiko loatra",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Mamiko loatra ny eo akaikinao Ray\nLavitra sento tsy misy ny manjo\nEo ‘zany 'zaho hitoetra mandrakizay\nNy anilanao ry Ray no hahasambatra ahy",
+
+            "Akaikinao no hahita famonjena\nEh very toky raha hilaozanao\nLavitra Anao milofika ny tena\nTariho Ray, eo akaikinao",
+
+            "Eh ry Jesoa anilanao no tiako\nTantano aho Ray ho ao an-danitra ao\nNy herinao no ampingako hatrany\nMandra-pialako etý an-tany"
+        ],
+        "refrain": "Ialao ny ratsy, manaova ny soa\nNy marina handova ny tany\nEo 'zany foko ho ampoky ny soa\nNy fahoriana, ny loza ho lany",
+        "categories": [4,5,13]
+    },
+    {
+        "id": 31,
+        "title": "Andriamanitra fitiavana",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Andriamanitra Fitiavana\nIanao no e mampiray\nAry koa nampihavana ireto havan-tianay (in-2)\nNefa ny fiainana tsy mora\nSarotra koa 'zany dia\nKoa ampio ireo tanora mba haharitra doria (in-2)",
+
+            "Raha sendra fifaliana\nAza avela ho variana\nRaha tojo fahoriana\nTsy ho diso fanampiana",
+
+            "Raha sendra ka mivena\nFa hoe resim-pahalemena\nDia omeo fahendrena\nMba hahay hanarin-tena"
+        ],
+        "refrain": "Tahio e, tahio Zanahary\nNa finaritra ireo na marary\nArovy ireo hatrany hatrany\nFa malama anie ny tany",
+        "categories": [4,5,13]
+    },
+    {
+        "id": 32,
+        "title": "Nosy tanindrazako",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Nosy tanindrazako\nIzay navelan’ny razako\nAfoiko ho anao ny rako\nRy Madagasikarako",
+
+            "Ranomasina no valam-parihy\nMamefy ny foko rehetra hifankatia\nTsy hampisaraka ny malagasy miaraka",
+
+            "Andriamanitra ô ! Mitahia\n’Ty taninay ity\nTany izay nomenao ho anay\nLovan’ny taranakay",
+
+            "Madagasikara ho an’ny malagasy\nMalagasy kosa ho an’i Madagasikara"
+        ],
+        "refrain": "",
+        "categories": [5,11,14]
+    },
+    {
+        "id": 33,
+        "title": "Fitiavam-be",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Ry ilay Mpanavotra ô\nNa dia navesatra aza ny hazofijaliana\nNiantsoroanao\nNa dia naranitra e, ny tsatoky ny tsilo\n‘Zay nisatrohanao",
+
+            "Dia noraisinao ho fitiavam-be\nMba hanavotana ahy\nKa raha mba izaho re\nNo tamin’ny toeranao\nMba taiza ho aiza lahy ?",
+
+            "Inoako marimarina\nFa tsy anahirana ahy no hirifatra\nSy nandositra\nKanefa Ianao dia sahy\nNy ho voaviravira, r’ilay Voahositra",
+
+            "Ireo fery dimy tamin’ny vatanao\nRy Jesoa no zary taratra\nIlay famonjena efa vitanao\nNo zary tambin’ny otanay",
+
+            "Ka toloranay ny haja, dera,\nVoninahitra Ianao Jesoa\nFa tsisy fomba hafa\nAzonay lazaina mihitsy Aminao\nKa ny feonay no indro akarinay\nHo avo hideranay Anao\nAmin-tononkiran’ny Anjely\nIray miredona tahaka izao hoe :",
+
+            "Aleloia, aleloia, ho Anao (Jesoa)"
+        ],
+        "refrain": "",
+        "categories": [2,3,5,13]
+    },
+    {
+        "id": 34,
+        "title": "Le maro ty soa",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Le maro ty soa\nFandrike mahavoa\nFiainan-tsy hita fara\nAndanitse ro raharaha",
+
+            "Fiaina mamere vere\nDevoly maneresere\nMamare anao tsy ho ahe\nMba mihembena ro lahy",
+
+            "Intoy ty talily\nTy fa navota tsy avily\nFa ty ambese mpavande\nMpamerevere ndate"
+        ],
+        "refrain": "Lomaia malaky iha\nTsy ho tratse ty afara\nSarombaho ty Jesoa\nFa Ia avao ro lala",
+        "categories": [5]
+    },
+    {
+        "id": 35,
+        "title": "Fo mitambatra ho iray",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Fo mitambatra ho iray\nNo entin’eto izao hitrotro ny fitia\nHo hamafisin’Andriamanitra\nHitombo hery sy hamerovero koa",
+
+            "Ka hifanaiky ireto olon-droa\nFa hiombom-piainana\nNa inona hiseho eto an-tany\nDia vonona hifampitantana",
+
+            "(ref)",
+
+            "Toy izao androany izao\n'Lay nofinofy izay niainanay taloha\nKa indro fa miara-belona\nMiara-tsambatra anivon’ny fitia",
+
+            "'Lay dina izay niarahanay nikolo\nNo hamafisina ho doria\nHo tehirizina ho vaovao\nHandrobona hitombo hasina",
+
+            "(ref)"
+        ],
+        "refrain": "Fitiavana, toy ny an’ilay Jesoa\nFitiavana manolotra ny aina\nFitiavana mandresy fahotana\nFitiavana ho mandrakizay doria",
+        "categories": [4,5,13]
+    },
+    {
+        "id": 36,
+        "title": "Ouvre les yeux",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Tu as fait ton chemin\nDans la souffrance et la detresse\nTu as fermé les poings\nBavant à toi, luttant sans cesse\nMais un jour, tu as cru\nEn la puissance de Jésus\nVenant chez nous, brisant la mort\nPour changer ton sort",
+
+            "Il t’a dit : viens, suis-moi\nJe te ferai un pêcheur d’hommes\nLes unissant en toi\nDans l’espoir de changer le monde\nIls ont faim de justice\nArme de paix, source de vie\nAlors, demain, il fera beau\nDans un monde nouveau",
+
+            "Ne baisse pas les bras\nOublie ton siège et ta villa\nLes gens qui sont en bas\nLèvent les yeux car tu es là\nLe Seigneur n’oublie pas\nSoutient leur marche pas à pas\nVers un destin rempli de joie\nEn comptant sur toi"
+        ],
+        "refrain": "Ouvre les yeux, et tends la main\nVers cette terre de demain\nSous ton regard, elle voit le jour\nCriant sa foi en ton amour",
+        "categories": [4,7]
+    },
+    {
+        "id": 37,
+        "title": "Ahirato ny masonao",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Efa ela tokoa\nNiaretanao mafy, ahitàna soa\nKa na ino(na) nanjoa\nNiady hatrany, tsy hamoy fo\nSoa ninoanao tokoa\nNy hery tokan’i Jesoa\nTonga tetý hamonjy anao :\nFahafatesana nandao",
+
+            "Hoy Jesoa : araho Aho\nHo mpanarato olona ianao\nNy rehetra no asao\nHanova izao tontolo izao\nManirý fahamarinana\nAro sy ampingam-piainana\nHo tsara ny ampitsonao\nHo tontolo vaovao",
+
+            "Ny hakiviana ialao\nAdinoy ny harena anananao\n'Reo eo ambaninao\nMiandrandra mibanjina anao\nIzy Tompo homba anao\nHanentana hiantso hoe : andao\nHo any amin’ny fiainam-pifaliana\nIanao no hitokiana"
+        ],
+        "refrain": "Ahirato ny masonao\nAtolory ny tànanao\nMeteza handroso\nHo any amin’ny fiainam-baobao\nAmbany masonao\nMiposaka izy izao\nMino, matoky,\nMiandrandra ny fitiavanao",
+        "categories": [4,5]
+    },
+    {
+        "id": 38,
+        "title": "Andro sambatra loatra",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Andro sambatra loatra\nNo nandraisako Anao\nHo Anao samy irery\n'Zao fiainako izao",
+
+            "Ô ry olom-boavonjy\nMitsangàna ianao\nFa i Jesoa mpamonjy\nNo nanavotra anao",
+
+            "Ary dera sy saotra\nHo Anao Zoky tia\nAndro sambatra loatra\nIty anio ity"
+        ],
+        "refrain": "Taoan-davaka aho\nNihevi-tena ho very\nFa Ianao no niantso\nKa voavonjy aho izao",
+        "categories": [4,5]
+    },
+    {
+        "id": 39,
+        "title": "Isan’andro",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Tompo, te-ho zandrinao, te-ho zanaky ny Ray\nNa mpanota aza re\nNefa osa sy malia\nTsy hahatanty ny onjan’ny ankaso etý",
+
+            "Faniriako ry Tompo, ny ho eo anilanao\nHankalaza ny herinao\nRaiso re 'ty zanakao\nHo afaka amin’izao ota rehetra izao",
+
+            "Indro aho ankehitriny, fa hiara-dia Aminao\nHiara-tsambatra Aminao\nRay ambony soa indrindra\nMiahy anay tsy ho solafaka mamindra"
+        ],
+        "refrain": "Isan’andro, isan’andro izao\nNo itadiavako ny Ray\nNo ikatsahako ilay\nFanjakana, fahamarinanao\nMba hanomezanao ny sisa rehetra ho ahy",
+        "categories": [4,5]
+    },
+    {
+        "id": 40,
+        "title": "Ry Fanahy mpankahery",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Ry Fanahy mpankahery tantanonao\nNy dianay mba tsy ho very ka hazavao\nNy haizim-piton’ny satana dia hisava\n(Noho ny herinao)\nManda ianteherana Ianao ka tsy ho rava",
+
+            "Indro tonga miandrandra handray Anao\nAm-po madio sy matoky ka mba sasao\nK’ireo fanomezanao fito tsinjarao re\n(Hankahery anay)\nDera, laza anie ho Anao Tompo lehibe",
+
+            "Ry Fanahy mpanazava tsilovinao\nNy aty fonay tsy mazava raha azo atao\nNy haizim-piton’ny satana dia hisava\n(Noho ny herinao)\nManda ianteherana Ianao ka tsy ho rava"
+        ],
+        "refrain": "Andriamanitra ô mahery\n(Masim-pitahiana)\nTantananao ny dianay\nMba tsy ho very ka hazavao\nNy haizim-piton’ny satana dia hisava\n(Noho ny herinao)\nManda ianteheranay Ianao ka tsy ho rava",
+        "categories": [4,5]
+    },
+    {
+        "id": 41,
+        "title": "Ianao ry Tompo",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Maro ny milaza amiko (Ry Tompo ô)\nTsisy famonjena ho ahy intsony\n(Eo Aminao)\nAminao Andriamanitra\nTompo sy mpanavotra",
+
+            "Nefa kosa Ianao ry Tompo ô (no ampingako)\nIanao no voninahitro (manandratra ahy)\nSy manandratra ny lohako\nMpampitràka ihany koa",
+
+            "Miantso Anao amin’ny feoko aho (Ry Tompo ô)\nKa Ianao kosa mamaly ahy\n(An-tendrombohitrao)\nDia ilay Jesrosalema\n'Lay tanàna masina",
+
+            "Vahoaka tsy tambo isaina (mikasa hamely ahy)\nMivangongo hatraiza hatraiza (manoloana ahy)\n'Reo fa manoloana ahy\nNefa tsy matahotra aho"
+        ],
+        "refrain": "Maro fahavalo ‘zany tenako ry Tompo (1e voix)\nMaro fahavalo ‘zany tenako ry Tompo (2e voix)\nIanao no hiafenako(1e voix)\nIanao no manda hiafenako(2e voix)\n'Reo mitsangan-kamely ahy",
+        "categories": [4,5]
+    },
+    {
+        "id": 42,
+        "title": "Fanabeazana",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Iainanao ve ireo teny fanabeazana anao ?\nHenoy ange, fa holazaiko tsotra toy izao :",
+
+            "Fiangonana fiombonana\nMino sy mivelona ny fitiavan’Andriamanitra\nNo tanjona (sy làlana)\nHikatsahana ny Lanitra\nKa andao hiezaka ho filamatra",
+
+            "'Lay mpanabe nampianatra ny tsara hatrizay\nDia i Jesoa zokintsika zanaky ny Ray",
+
+            "Hery fanohitra (amin’ny fitoriana)\nNy Vaovao Mahafaly, sy fahombiazana\nFahatafitana (amin’ny tanjona)\nMaha-olom-banona mandray andraikitra\nNy fanabeazana",
+
+            "Volavolaina e manontolo e (olona) (in-2)\nVatana sy saina sy fo sy fanahy e\nTamin’ny batemy naha-zanakao ahy e\nVolavolaina e manontolo e (olona) (in-2)\n'Lay teninao voasoratrao ho ahy\nVaovao Mahafay sakafom-panahy"
+        ],
+        "refrain": "",
+        "categories": [3,5]
+    },
+    {
+        "id": 43,
+        "title": "Mais oui, le Seigneur est bon",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Nous marchons ensemble (2 fois)\nVers ce beau pays, là, là\nNous marchons enemble (2 fois)\nVers le Paradis, là, là",
+
+            "Au fond de mon cœur (2 fois)\nIl y a ce pays, là, là\nAu fond de mon cœur (2 fois)\nIl y a le Paradis, là, là",
+
+            "Quelqu’un nous attend (2 fois)\nDans ce beau pays, là, là\nQuelqu’un nous attend (2 fois)\nDans le Paradis, là, là"
+        ],
+        "refrain": "Mais oui, le Seigneur est bon (2 fois)\nIl a fait pour nopus des merveilles\nMais oui, le Seigneur est bon (2 fois)\nJe veux lui chanter mon amour",
+        "categories": [4,7]
+    },
+    {
+        "id": 44,
+        "title": "'Lay tanàna masina",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "'Lay tanàna masina\nIndro efa tazako eto izao\nToa milaza zavatra\nMisy fambara masina\nKintana tomaratra\nManazava inty ny alina\nK’avia ianao, hiara-hitazana e",
+
+            "'Lay tanàna masina\nNo indrý fa miandry anao ho ao\nTonga hidina etý\n'Lay mpamonjy, 'lay Mesia\nEo an-dranon’omby re\nMiramirana erý\nMaika hampandroso anao izao\nMoa ve mba tsinjonao"
+        ],
+        "refrain": "Andao anie, andao ho any e\nAza mba variana etý\nFa miandry anao i Kristy\nAndao ho any e\nAn-tanàna masina\nTeraka ho anao ao anie\n'Lay mpamonjy lehibe",
+        "categories": [4,5]
+    },
+    {
+        "id": 45,
+        "title": "Ry Jesoa ô, an-tànanao tokoa",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Ry Jesoa ô, an-tànanao tokoa\nHatrizao sy ho mandrakizay\nNy fiainanay, na ho ratsy na ho soa\nRaha eo Ianao, matoky aho ry Ray",
+
+            "Koa na tahotra, na ahiahy\nTsy hampahory ahy intsony re\nTafa-toetra mafy ny fanahy\nAminao ry Tompo lehibe",
+
+            "Isan’andro, eny isan’ora\nMiaraka aminay Ianao\nMampahery amin’ny teny soa\nSy hanoro lalàna ahy izao",
+
+            "Sambatra aho re ry Jesoa tia\nMampiorina Aminao ny fo\nVonona aho hanoy 'zany dia\nSy hiaritra izay manjo",
+
+            "Maro re ny teny fikasana\nIvelomanay an-tany atý\nSoa indrindra koa ilay Kanàna\n'Zay miandry ao an-koatra arý",
+
+            "Fitiavana mitafotafo\nNo hameno ny fiainako\nHe ny aiko novidianao lafo\nAzo antoka ny lovako",
+
+            "Tarigetranay tokoa ry Jesoa\nNy hanandra-peo hidera an-kira Anao\nEzahinay fa idealy soa\nNy ho môdely amin’izay atao",
+
+            "Misaotra Anao mitia anay ry Ray ô\nNy Zanakao manampy anay ho sahy\nFanahy Masina mampiray anay ô\nKoa dera, laza ho Anao mandrakizay"
+        ],
+        "refrain": "",
+        "categories": [4,5]
+    },
+    {
+        "id": 46,
+        "title": "Halleluia ! What a saviour !",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Men of sorrows, what a name\nFor the Son of God who came\nRuined sinners to reclaim!\nHalleluia! What a saviour!",
+
+            "Vahoaka voageja ô, inona ny hanitra\nAnarana mendrika ny Zanak’Andriamanitra\nMpanota very no averiny ho any an-danitra\nAleloia ! Ho Anao Mpanavotra",
+
+            "Ô pécheurs, quel nom donner\nAu Fils de Dieu qui nous a sauvés\nDe l’abîme, Il nous a réclamés\nAllélouia ! Louons le Sauveur.",
+
+            "Lifted up was He to die\n\"It is finished\", was his cry\nNow in heav’n exalted high\nHalleluia! What a saviour!",
+
+            "Nitsangana tamin’ny maty Izy, niala tamin’ny tany\n\"Tontosa ny rehetra\", hoy Izy nitomany\nIzao Izy voasandratra any an-danitra any\nAleloia ! Ho Anao Mpanavotra",
+
+            "Ressuscité Il s’envola\n\"Tout est accompli\", Il s’écria\nÉlevé au ciel comme Roi des rois\nAllélouia ! Louons le Sauveur.",
+
+            "When He comes our glorious King\nAll his ransomed home to bring\nThen a new his song we’ll sing\nHalleluia! What a saviour!",
+
+            "Rahatr’izay ho avy am-boninahitra Izy\nHampodiany avokoa ireo olom-boavidy\nDia hiaraka hiantsa na ny lehibe, na ny ankizy\nAleloia ! Ho Anao Mpanavotra",
+
+            "Quand Jésus viendra dans sa Gloire\nNous réclamer selon son vouloir\nDe nouveau, nous chaterons Blancs et Noirs\nAllélouia ! Louons le Sauveur."
+        ],
+        "refrain": "",
+        "categories": [4,5,6,7]
+    },
+    {
+        "id": 47,
+        "title": "Isaoranay Ianao ry Tompo Andriamanitra",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "Faneva ny faha-110 EKAR Fo Masin’I Jesoa",
+        "verse": [
+           "Isaoranay Ianao ry Tompo Andriamanitra\nSatria efa sitrakao ny hampijoro sy hampaharitra\n'Ty trano fiangonanay, Eglizy masina tokoa\nKa nanoloranao anay mpiaro mpamindra fo\nDia ny Fo Masin’i Jesoa",
+
+            "Isaoranay Ianao ry Tompo Andriamanitra\nSatria efa sitrakao ny hampijoro sy hampaharitra\n'Ty trano fiangonanay, Eglizy masina tokoa\nIzay hany nahatonga anay hitana ny finoana\nSatria olon’ny fanahy ka mety hamam-pahadisoana",
+
+            "Isaoranay Ianao ry Tompo Andriamanitra\nSatria efa sitrakao ny hampijoro sy hampaharitra\n'Ty trano fiangonanay, Eglizy masina tokoa\nIzay nanomezanao anay fahasoavana ombieny\nNefa dia tsy tsapanay fa avy aminao izy ireny"
+        ],
+        "refrain": "Koa setrin’ny fitiavana dia 'ndreto izahay (Ambodivona)\nHankalaza izao fety izao\nKristianina no miray (Ambodivona), miara-paly sy mioby\nFa tratra ny taon-jaobily izay mbola afaka hiaona\nHiatrika ny faha-110 taona",
+        "categories": [3,5,10]
+    },
+    {
+        "id": 48,
+        "title": "Tao anaty rivo-doza",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Tao anaty rivo-doza naharipaka ny hazo\nTao anaty feo mitrena mampihorohoro tany\nTao anaty lelan’afo nanakila ny tanàna\nTsia, tsy tao Ianao",
+
+            "Am’ireny lahateny tsara rindra sy malaza\nAm’ireny ady am-basy mahapotika ny osa\nAm’ireny retiretim-boninahitr’olombelona\nTsia, tsy tao Ianao",
+
+            "Amy toerana mangina ivavahan’ny mahantra\nAmin’ny andro mampilofika ny olo-mino anao\nAmy faharetam-pon’izay miandry Anao hatrany\nEny, Tompo, eo Ianao"
+        ],
+        "refrain": "",
+        "categories": [5]
+    },
+    {
+        "id": 49,
+        "title": "Hay teo foana i Kristy",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Taona sy taona nisesy nitadiavan-tsoa\nNiodikodina nefa tsy nety nitony ny fo\nIreo ‘zay nitokiana nandao avokoa\nTany efitra sady nangiana no niainako",
+
+            "Foana izao ny fotoana ‘zay laniko\nAndro mihiratra soa lohataona izao ny androko\nTojo izay nantenaina ka dia afa-po\nIlay fiainako teo karakaina niova ho soa"
+        ],
+        "refrain": "Hay teo foana i Kristy\nHay teo foana i Kristy\nNitady ahy izay nania\nHay teo foana i Kristy",
+        "categories": [4,5]
+    },
+    {
+        "id": 50,
+        "title": "Jesoa Kristy raha nandeha",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Jesoa Kristy raha nandeha\nNitory teny eran’i Jodea\nNamakivaky an’i Galilea\nNamelabelatra hoe :",
+
+            "Eny sambatra ny mahantra am-panahy\nEny sambatra ny malemy fanahy\n(in-2)\nEny sambatra ny madio fo\nFa hahita an’Andriamanitra",
+
+            "Paoly apôstôly raha nandeha\nNitory teny tany Antiôkia\nDia nipaka tany Galasia\nNamakivaky an’i Masedônia\nDia vaky volana fa hoe :",
+
+            "Ataoko fakofako avokoa\nOharina amin’ny fiainan’i Jesoa (in-2)\nAtaoko fakofako avokoa\nNy zavatra rehetra",
+
+            "Ary isika kosa raha handeha\nHitory ny fiainan’i Jesoa\nHo apôstôlin’ny fiadanam-po\nHanafatrafatra hoe :",
+
+            "Kiraroy fahavononana hitory Evanjely\nEvanjelin’ny fahasambarana valo\nDia tafio fahamarinana ho fiarovan-tratra\nRaiso koa ny ampingan’ny Fanahy"
+        ],
+        "refrain": "",
+        "categories": [5]
+    },
+    {
+        "id": 51,
+        "title": "Hanaraka Anao Jesoa",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Hanaraka, hanaraka Anao Jesoa\nHanaraka n’aiza n’aiza aleha\nHanaraka, hanaraka Anao Jesoa\nN’aiza n’aiza aleha, hanaraka Anao",
+
+            "Je Te suivrai, je Te suivrai Jésus\nJe Te suivrai là où Tu iras\nJe Te suivrai, je Te suivrai Jésus\nLà où Tu iras, je Te suivrai",
+
+            "I will follow, I will follow Jesus\nI will follow wherever He goes\nI will follow, I will follow Jesus\nWherever He goes, I will follow"
+        ],
+        "refrain": "",
+        "categories": [5,6,7]
+    },
+    {
+        "id": 52,
+        "title": "Mitsangàna, torio ny fitiavana",
+        "release": "",
+        "author": "",
+        "composer": "",
+        "description": "",
+        "verse": [
+           "Mitsangàna, torio ny fitiavana\n'Zay nomen’Andriamanitra tsy toha\nHazontsika ny fahasoavana\nSy ny fahasambarana avy amin’i Jesoa\nNy fatorana rehetra hovahana izao\nF’efa tonga ny taom-panafahana",
+
+            "Mitsangana, torio ny fiadanana\nHo an’ny olona ankasitrahana\nIndro izao Jesoa Tompo nandao ny lanitra\nMba hitondra ny fahazavana\nEny, Izy tokoa no ilay Mesia Mpanavotra\nMba hitondra ny fiadanana",
+
+            "Atolory ho Azy anio : saotra, dera, voninahitra\nRaiso, Tompo, izao fideràna izao\nTompo Masina ô, ekeo raha sitrakao\nHo anao, Tompo ô, ny fisaoranay\nVoninahitra anie ho Anao ry Ray\nMasina, Masina"
+        ],
+        "refrain": "",
+        "categories": [5,11]
     }
 ]

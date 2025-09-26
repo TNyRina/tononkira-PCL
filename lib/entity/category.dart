@@ -1,6 +1,7 @@
 class Category {
   final int id;
   final String name;
+  set name(String value) => name = value;
 
   Category({required this.id, required this.name});
 
@@ -12,9 +13,4 @@ class Category {
       name: json['name'].toString(),
     );
   }
-
-  String getName() {
-    return name;
-  }
 }
-

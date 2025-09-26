@@ -1,33 +1,23 @@
 import 'dart:convert';
-import 'dart:io';
-import 'package:path/path.dart' as p;
-import 'package:path_provider/path_provider.dart';
-
-import 'package:tononkira_pcl/dao/lyric_dao.dart';
 import 'package:tononkira_pcl/dao/utility.dart';
 import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/entity/playlist.dart';
+import 'package:tononkira_pcl/utility/exception.dart';
 
 class PlaylistDAO {
   static Future<List<Playlist>> loadPlaylist() async {
     try {
-      final dir = await getApplicationDocumentsDirectory();
-      final files = dir.listSync();
-
+      final files = await getAllPlaylistFile();
       final playlists = <Playlist>[];
 
       for (var file in files) {
-        if (file is File && file.path.endsWith('.json')) {
-          if (await file.exists()) {
-            // ✅ sécurité ajoutée
-            final content = await file.readAsString();
-            final data = jsonDecode(content);
-            playlists.add(Playlist.fromJson(data));
-          }
+        if (await isJsonFileExists(file)) {
+          final data = readAndDecodeFile(file);
+          playlists.add(Playlist.fromJson(await data));
         }
       }
 
-      return playlists;
+      return sortObjectByAttribut(playlists, (p) => p.name);
     } catch (e, stack) {
       logError("Erreur lors du chargement des playlists", e, stack);
 
@@ -37,19 +27,13 @@ class PlaylistDAO {
 
   static Future<dynamic> getPlaylistJsonByName(String name) async {
     try {
-      final dir = await getApplicationDocumentsDirectory();
-      final files = dir.listSync();
-
+      final files = await getAllPlaylistFile();
       late dynamic json;
 
       for (var file in files) {
-        if (file is File && file.path.endsWith('.json')) {
-          String jsonName = p.basename(file.path);
-          String playlistName = jsonName.replaceAll(".json", "");
-          if (name == playlistName) {
-            final content = await file.readAsString();
-            json = jsonDecode(content);
-          }
+        if (await isJsonFileExists(file)) {
+          String playlistName = getPlaylistNameFromFileSystem(file);
+          json = (name == playlistName) ? readAndDecodeFile(file) : null;
         }
       }
 
@@ -74,26 +58,15 @@ class PlaylistDAO {
 
   static Future<List<Lyric>> loadPlaylistSongs(Playlist playlist) async {
     try {
-      final dir = await getApplicationDocumentsDirectory();
-      final files = dir.listSync();
-
-      final playlists = <Lyric>[];
+      final files = await getAllPlaylistFile();
+      late List<Lyric> playlists;
 
       for (var file in files) {
-        if (file is File && file.path.endsWith(".json")) {
-          String jsonName = p.basename(file.path);
-          String playlistName = jsonName.replaceAll(".json", "");
+        if (await isJsonFileExists(file)) {
+          String playlistName = getPlaylistNameFromFileSystem(file);
           if (playlist.hasName(playlistName)) {
-            final content = await file.readAsString();
-            final json = jsonDecode(content);
-            final songsID = json['songs'];
-            for (var id in songsID) {
-              Lyric? lyric = await LyricDAO.getLyricByID(id);
-              if (lyric != null) {
-                playlists.add(lyric);
-              }
-            }
-          }
+            playlists = await generatePlaylistSongFromJson(file);
+          } 
         }
       }
 
@@ -109,33 +82,41 @@ class PlaylistDAO {
     }
   }
 
-  static Future<void> savePlaylist(Playlist playlist) async {
+  static Future<void> createPlaylist(Playlist playlist) async {
     try {
-      final directory = await getApplicationDocumentsDirectory();
-      final file = File('${directory.path}/${playlist.name}.json');
-
-      String jsonString = jsonEncode(playlist.toJson());
-      await file.writeAsString(jsonString);
+      if (!(await arleadyExistsInFileSystem(playlist.name))) {
+        await _savePlaylist(playlist);
+      } else {
+        throw Exception("Le playlist ${playlist.name} exists deja !");
+      }
     } catch (e, stack) {
       logError(
         "Erreur lors de la sauvegarde du playlist ${playlist.name}",
         e,
         stack,
       );
+
+      throw Exception(getExceptionMessage(e.toString()));
     }
+  }
+
+  static Future<void> updatePlaylist(Playlist playlist, String oldName) async {
+    if (oldName.isNotEmpty && !playlist.hasName(oldName)) {
+      await deletePlaylist(Playlist(name: oldName, songsID: []));
+    }
+    await _savePlaylist(playlist);
   }
 
   static Future<void> deletePlaylist(Playlist playlist) async {
     try {
-      final directory = await getApplicationDocumentsDirectory();
-      final file = File('${directory.path}/${playlist.name}.json');
+      final file = await getPlaylistFile(playlist);
 
       if (await file.exists()) {
         await file.delete();
       }
     } catch (e, stack) {
       logError(
-        "Erreur lors de la sauvegarde du playlist ${playlist.name}",
+        "Erreur lors de la suppression du playlist ${playlist.name}",
         e,
         stack,
       );
@@ -144,11 +125,35 @@ class PlaylistDAO {
 
   static Future<void> addLyricToPlaylist(Playlist playlist, Lyric lyric) async {
     playlist.appendLyric(lyric);
-    savePlaylist(playlist);
+    _savePlaylist(playlist);
   }
 
-  static Future<void> deleteLyricOnPlaylist(Playlist playlist, Lyric lyric,) async {
+  static Future<void> updatePlaylistSongs(
+    Playlist playlist,
+    List<int> lyricsID,
+  ) async {
+    playlist.newLyricsID(lyricsID);
+    _savePlaylist(playlist);
+  }
+
+  static Future<void> deleteLyricOnPlaylist(Playlist playlist,Lyric lyric,) async {
     playlist.deleteLyric(lyric);
-    savePlaylist(playlist);
+    _savePlaylist(playlist);
+  }
+
+  static Future<void> _savePlaylist(Playlist playlist) async {
+    try {
+      final file = await getPlaylistFile(playlist);
+
+      String jsonString = jsonEncode(playlist.toJson());
+
+      await file.writeAsString(jsonString);
+    } catch (e, stack) {
+      logError(
+        "Erreur lors de la sauvegarde du playlist ${playlist.name}",
+        e,
+        stack,
+      );
+    }
   }
 }

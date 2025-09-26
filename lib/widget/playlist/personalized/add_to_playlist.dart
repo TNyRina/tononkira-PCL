@@ -1,9 +1,17 @@
 import "package:flutter/material.dart";
+import "package:toastification/toastification.dart";
 import "package:tononkira_pcl/entity/lyric.dart";
 import "package:tononkira_pcl/entity/playlist.dart";
 import "package:tononkira_pcl/service/playlist_service.dart";
+import "package:tononkira_pcl/utility/exception.dart";
 import "package:tononkira_pcl/widget/playlist/personalized/my_playlist.dart";
+import "package:tononkira_pcl/widget/playlist/personalized/shared/playlist_form.dart";
 import "package:tononkira_pcl/widget/playlist/personalized/shared/playlist_list.dart";
+import "package:tononkira_pcl/widget/shared/class/head.dart";
+import "package:tononkira_pcl/widget/shared/drawer.dart";
+import "package:tononkira_pcl/widget/shared/floating_action_button.dart";
+import "package:tononkira_pcl/widget/shared/notification.dart";
+import "package:tononkira_pcl/widget/theme/tcolor.dart";
 
 class AddToPlaylist extends StatefulWidget {
   final Lyric lyric;
@@ -14,42 +22,51 @@ class AddToPlaylist extends StatefulWidget {
 }
 
 class _AddToPlaylist extends State<AddToPlaylist> {
+  late String title;
   late Future<List<Playlist>> playlists;
+
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final TextEditingController _playlistNameController = TextEditingController();
-  final TextEditingController _playlistDescriptionController = TextEditingController();
+  final TextEditingController _playlistDescriptionController =
+      TextEditingController();
 
   @override
   void initState() {
     super.initState();
-
+    title = "Ajouter dans un playlist";
     playlists = PlaylistService.loadPlaylist();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: appBar(), body: PlaylistList(lyric: widget.lyric));
-  }
-
-  AppBar appBar() {
-    return AppBar(
-      title: Text("Ajouter dans un playlist"),
-      actions: [
-        IconButton(
-          onPressed: () => onPressedAddButton(widget.lyric),
-          icon: Icon(Icons.add_box),
-        ),
-      ],
+    return Scaffold(
+      appBar: Head(context: context, title: title).build(),
+      body: PlaylistList(lyric: widget.lyric),
+      floatingActionButton: floatingActionButton(
+        () => onPressedActionButton("Créer un nouveau playlist"),
+        Icons.add_box,
+      ),
+      drawer: drawer(context),
     );
   }
 
-  void onPressedAddButton(Lyric lyric) {
+  void onPressedActionButton(String title) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text("Créer un nouveau playlist"),
-          content: form(),
+          title: Text(
+            title,
+            style: TextStyle(
+              color: TColor.primary,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          content: PlaylistForm.build(
+            formKey: _formKey,
+            nameController: _playlistNameController,
+            descritpionController: _playlistDescriptionController,
+          ),
           actions: [
             TextButton(
               child: const Text("Annuler"),
@@ -57,15 +74,20 @@ class _AddToPlaylist extends State<AddToPlaylist> {
                 Navigator.of(context).pop();
               },
             ),
-            ElevatedButton(
-              child: const Text("OK"),
-              onPressed: () {
-                if (_formKey.currentState!.validate()) {
-                  newPlaylist(_playlistNameController.text, [widget.lyric], _playlistDescriptionController.text);
-
-                  Navigator.of(context).push(MaterialPageRoute<void>(builder: (context) => MyPlaylist()));
-                }
-              },
+            ElevatedButton.icon(
+              style: ButtonStyle(
+                backgroundColor: WidgetStateProperty.all(TColor.primary),
+                iconColor: WidgetStatePropertyAll(TColor.secondary),
+              ),
+              icon: Icon(Icons.save),
+              label: const Text(
+                "Enregistrer",
+                style: TextStyle(color: TColor.secondary),
+              ),
+              onPressed:
+                  () => {
+                    if (_formKey.currentState!.validate()) {onSubmit()},
+                  },
             ),
           ],
         );
@@ -73,31 +95,29 @@ class _AddToPlaylist extends State<AddToPlaylist> {
     );
   }
 
-  Widget form() {
-    return Form(
-      key: _formKey,
-      child: Column(
-        children: [
-          TextFormField(
-            controller: _playlistNameController,
-            decoration: const InputDecoration(hintText: 'Playlist name'),
-            validator: (String? value) {
-              if (value == null || value.isEmpty) {
-                return 'Please enter some text';
-              }
-              return null;
-            },
-          ),
-          TextFormField(
-            controller: _playlistDescriptionController,
-            decoration: const InputDecoration(hintText: 'Playlist description')
-          )
-        ],
+  void onSubmit() async {
+    await newPlaylist(_playlistNameController.text, [
+      widget.lyric,
+    ], _playlistDescriptionController.text);
+
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder:
+            (context) => MyPlaylist(),
       ),
     );
   }
 
-  void newPlaylist(String name, List<Lyric> songs, String? description) {
-    PlaylistService.newPlaylist(name, [widget.lyric.id], description!);
+  Future<void> newPlaylist(
+    String name,
+    List<Lyric> songs,
+    String? description,
+  ) async {
+    try {
+      await PlaylistService.newPlaylist(name, [widget.lyric.id], description!);
+      notification(context, "Le playlist ${_playlistNameController.text} est bien créé");
+    } catch (e) {
+      notification(context, getExceptionMessage(e.toString()), ToastificationType.error);
+    }
   }
 }

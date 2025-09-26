@@ -3,10 +3,10 @@ import 'package:tononkira_pcl/entity/category.dart';
 
 import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/service/lyric_service.dart';
-import 'package:tononkira_pcl/widget/shared/class/list_lyric.dart';
+import 'package:tononkira_pcl/widget/shared/class/head.dart';
+import 'package:tononkira_pcl/widget/shared/class/listSongs/default_list_songs.dart';
 import 'package:tononkira_pcl/widget/shared/drawer.dart';
 
-import 'package:tononkira_pcl/widget/shared/head.dart';
 import 'package:tononkira_pcl/widget/shared/class/search_bar.dart' as sb;
 
 class DefaultPlaylist extends StatefulWidget {
@@ -39,7 +39,7 @@ class _DefaultPlaylist extends State<DefaultPlaylist> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: head(context, "Playlist ${widget.category.name}"),
+      appBar: Head(context: context, title:"Playlist ${widget.category.name}").build(),
       drawer: drawer(context),
       body: body()
     );
@@ -72,7 +72,7 @@ class _DefaultPlaylist extends State<DefaultPlaylist> {
                 } else {
                   final List<Lyric> songList = snapshot.data!;
                   
-                  return ListLyric(songList: songList);
+                  return DefaultListSongs(songList: songList);
                 }
               },
             ),
