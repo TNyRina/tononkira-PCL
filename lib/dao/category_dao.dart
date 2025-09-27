@@ -4,7 +4,7 @@ import 'package:tononkira_pcl/dao/utility.dart';
 
 import '../entity/category.dart';
 
-class CategoryDAO {
+class CategoryDAO{
   static const String _dataCategory = 'assets/data/testAdmin/category.json';
 
   static Future<List<Category>> loadCategories() async {
@@ -23,11 +23,8 @@ class CategoryDAO {
   static Future<Category?> getCategoryByID(int id) async {
     try {
       List<Category> allCategories = await loadCategories();
-      
-      return allCategories.firstWhere(
-        (cat) => cat.id == id,
-        orElse: () => Category(id: -1, name: "Inconnu"),
-      );
+
+      return allCategories.firstWhere((cat) => cat.id == id, orElse: () => Category(id: -1, name: "Inconnu"));
     } catch (e, stack) {
       logError("Erreur lors de la recherche de la catégorie $id", e, stack);
       return null;

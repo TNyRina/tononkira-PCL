@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/services.dart';
+import 'dart:io'; 
 import 'package:tononkira_pcl/entity/lyric.dart';
 import 'package:tononkira_pcl/service/lyric_service.dart';
-import 'package:tononkira_pcl/utility/debugJSON.dart';
 import 'package:tononkira_pcl/widget/shared/class/head.dart';
 import 'package:tononkira_pcl/widget/shared/class/listSongs/default_list_songs.dart';
 import 'package:tononkira_pcl/widget/shared/drawer.dart';
@@ -28,18 +28,49 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    debugListJsonFiles();
     loadLyric();
     filterEdtingController.addListener(loadLyric);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: Head(context: context, home: true).build(),
-      drawer: drawer(context),
-      body: body(),
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (bool didPop, Object? result) async {
+        if (didPop) {
+          return;
+        }
+
+        if (await _onWillPop(context)) {
+          if (Platform.isAndroid) {
+            SystemNavigator.pop();
+          }
+        }
+      },
+      child: Scaffold(appBar: Head(context: context, home: true).build(), drawer: drawer(context), body: body()),
     );
+
+    
+  }
+
+  Future<bool> _onWillPop(BuildContext context) async{
+    return await showDialog(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Confirmer la sortie'),
+            content: const Text('Voulez-vous vraiment quitter l\'application ?'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(false),
+                child: const Text('Non'),
+              ),
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(true),
+                child: const Text('Oui'),
+              ),
+            ],
+          ),
+        ) ?? false;
   }
 
   Widget body() {
@@ -71,10 +102,7 @@ class _HomeState extends State<Home> {
   void loadLyric() {
     String filter = filterEdtingController.text;
     setState(() {
-      lyrics =
-          (filter.isEmpty)
-              ? LyricService.loadLyrics()
-              : LyricService.filterByTitleLyrics(filter);
+      lyrics = (filter.isEmpty) ? LyricService.loadLyrics() : LyricService.filterByTitleLyrics(filter);
     });
   }
 }

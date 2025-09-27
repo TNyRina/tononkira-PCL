@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tononkira_pcl/widget/about/about.dart';
 import 'package:tononkira_pcl/widget/home/home.dart';
 import 'package:tononkira_pcl/widget/playlist/default/main.dart';
 import 'package:tononkira_pcl/widget/playlist/personalized/my_playlist.dart';
@@ -59,8 +60,11 @@ Drawer drawer(BuildContext context){
         leading: Icon(Icons.info),
         title: const Text('A propos'),
         onTap: () {
-          // Update the state of the app.
-          // ...
+          Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (context) => About(),
+            ),
+          );
         },
       ),
     ],

@@ -40,8 +40,7 @@ class _Playlist extends State<Playlist> {
       color: const Color(0xFFFFFFFF),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Expanded(
-          child: FutureBuilder<List<Category>>(
+        child: FutureBuilder<List<Category>>(
             future: categories,
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
@@ -56,7 +55,6 @@ class _Playlist extends State<Playlist> {
               }
             },
           ),
-        ),
       ),
     );
   }
